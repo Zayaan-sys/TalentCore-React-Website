@@ -1,4 +1,4 @@
-<svg width="394" height="120" viewBox="0 0 394 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="460" height="120" viewBox="0 0 460 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">TalentCore logo</title>
   <desc id="desc">Rounded orange and yellow cross symbol with Talent Core text and Trusted Thinking Partners tagline.</desc>
   <g transform="translate(34 23)">
@@ -8,7 +8,7 @@
     <rect x="38" y="38" width="38" height="38" rx="18" fill="#e17822"/>
     <path d="M38 29H76V67H38V29Z" fill="#e9b22f" opacity="0.92"/>
   </g>
-  <g transform="translate(150 26)">
+  <g transform="translate(146 26)">
     <text x="0" y="47" fill="#12365b" font-family="Arial, Helvetica, sans-serif" font-size="53" font-weight="800" letter-spacing="-2.6">Talent</text>
     <text x="168" y="47" fill="#e6c52b" font-family="Arial, Helvetica, sans-serif" font-size="53" font-weight="800" letter-spacing="-2.6">Core</text>
     <text x="4" y="81" fill="#8a8a8a" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" letter-spacing="-0.7">Trusted Thinking Partners</text>

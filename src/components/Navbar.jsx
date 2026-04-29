@@ -16,7 +16,7 @@ export default function Navbar() {
           <img
             src={logo}
             alt="TalentCore logo"
-            className="h-14 w-auto max-w-[230px] sm:max-w-[300px]"
+            className="h-14 w-auto max-w-[260px] sm:max-w-[360px]"
           />
         </NavLink>
 
