@@ -16,13 +16,13 @@ const profiles = [
   {
     name: "Kaashief Lodewyk",
     eyebrow: "Technology practitioner",
-    bio: "A Solution Architect with 20 years of experience within the field of IT, bringing practical technology thinking to digital systems, platforms, and business operations.",
+    bio: "I am a Solution Architect and Data & AI Architect with over 25 years of experience in enterprise technology, specialising in designing and building data platforms, integration architectures, and AI-enabled solutions.",
     credentials: [
-      "Solution Architect",
-      "20 years of experience within the field of IT",
-      "CPUT IT graduate",
-      "Digital systems and platform design",
-      "Technology thinking partner for business operations",
+      "Solution Architect and Data & AI Architect",
+      "Over 25 years of experience in enterprise technology",
+      "Expertise in data platforms, integration architecture, and AI solutions",
+      "Operates across strategic, tactical, and operational levels",
+      "Hands-on experience in architecture, solution design, and development",
     ],
   },
 ];
