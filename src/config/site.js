@@ -1,4 +1,4 @@
-export const FORM_ENDPOINT = "";
+export const FORM_ENDPOINT = "https://formspree.io/f/mvzdenlb";
 export const CAL_BOOKING_URL = "https://cal.com/zayaan-lodewyk-pcaqyn";
 export const WHATSAPP_NUMBER = "27726044024";
 
