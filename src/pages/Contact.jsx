@@ -2,17 +2,6 @@ import ContactForm from "../components/ContactForm.jsx";
 import SectionHeader from "../components/SectionHeader.jsx";
 import { isConfigured, siteLinks } from "../config/site.js";
 
-const whatsappContacts = [
-  {
-    label: "Psychology WhatsApp",
-    number: siteLinks.whatsapp.psychology,
-  },
-  {
-    label: "Technology WhatsApp",
-    number: siteLinks.whatsapp.technology,
-  },
-];
-
 export default function Contact() {
   const hasBooking = isConfigured(siteLinks.calBookingUrl);
 
@@ -58,43 +47,19 @@ export default function Contact() {
         </aside>
       </div>
 
-      <div className="mx-auto mt-8 max-w-6xl rounded-[2rem] bg-brandBlue p-8 text-white">
-        <h2 className="font-display text-4xl font-bold">
-          Three simple ways to connect
+      <div className="mx-auto mt-8 max-w-6xl rounded-[2rem] bg-brandBlue p-8 text-center text-white shadow-soft">
+        <p className="text-sm font-extrabold uppercase tracking-[0.26em] text-brandGold">
+          Need help choosing?
+        </p>
+        <h2 className="mx-auto mt-4 max-w-3xl font-display text-4xl font-bold md:text-5xl">
+          Tell us what you need and we will guide you to the right TalentCore
+          division.
         </h2>
-        <div className="mt-6 grid gap-4 md:grid-cols-3">
-          <div className="rounded-2xl border border-white/15 bg-white/10 px-5 py-4 font-extrabold">
-            Message
-          </div>
-          <div className="rounded-2xl border border-white/15 bg-white/10 px-5 py-4">
-            <p className="font-extrabold">WhatsApp</p>
-            <div className="mt-4 grid gap-3">
-              {whatsappContacts.map((contact) =>
-                isConfigured(contact.number) ? (
-                  <a
-                    key={contact.label}
-                    href={`https://wa.me/${contact.number}`}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="rounded-full bg-[#25D366] px-5 py-3 text-center font-extrabold text-white shadow-soft transition hover:-translate-y-1"
-                  >
-                    {contact.label}
-                  </a>
-                ) : (
-                  <span
-                    key={contact.label}
-                    className="rounded-full border border-white/20 bg-white/10 px-5 py-3 text-center text-sm font-extrabold text-white/80"
-                  >
-                    {contact.label} pending
-                  </span>
-                ),
-              )}
-            </div>
-          </div>
-          <div className="rounded-2xl border border-white/15 bg-white/10 px-5 py-4 font-extrabold">
-            Book instantly
-          </div>
-        </div>
+        <p className="mx-auto mt-5 max-w-2xl leading-8 text-white/82">
+          Use the contact form or book a discovery call, and we will help you
+          decide whether Psychology, Technology, or a blend of both is the best
+          fit.
+        </p>
       </div>
     </section>
   );
