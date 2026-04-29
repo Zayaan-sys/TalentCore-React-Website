@@ -13,7 +13,7 @@ const whatsappOptions = [
 
 export default function WhatsAppButton() {
   return (
-    <div className="fixed bottom-5 right-5 z-40 hidden flex-col gap-3 sm:flex">
+    <div className="fixed inset-x-4 bottom-4 z-40 flex flex-col gap-2 sm:inset-x-auto sm:right-5 sm:bottom-5 sm:gap-3">
       {whatsappOptions.map((option) =>
         isConfigured(option.number) ? (
           <a
@@ -21,14 +21,14 @@ export default function WhatsAppButton() {
             href={`https://wa.me/${option.number}`}
             target="_blank"
             rel="noreferrer"
-            className="rounded-full bg-[#25D366] px-5 py-3 text-center font-extrabold text-white shadow-soft transition hover:-translate-y-1"
+            className="rounded-full bg-[#25D366] px-4 py-3 text-center text-sm font-extrabold text-white shadow-soft transition hover:-translate-y-1 sm:px-5 sm:text-base"
           >
             {option.label}
           </a>
         ) : (
           <span
             key={option.label}
-            className="rounded-full border border-brandBlue/10 bg-white/90 px-5 py-3 text-center text-xs font-extrabold text-brandBlue shadow-soft backdrop-blur"
+            className="rounded-full border border-brandBlue/10 bg-white/90 px-4 py-3 text-center text-xs font-extrabold text-brandBlue shadow-soft backdrop-blur sm:px-5"
           >
             {option.label} pending
           </span>
