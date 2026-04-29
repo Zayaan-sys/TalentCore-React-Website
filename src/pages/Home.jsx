@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const proofPoints = [
   "Industrial psychology lens",
   "Leadership and growth coaching",
-  "Human-centred organisational support",
+  "Technology industry experience",
 ];
 
 const divisions = [
