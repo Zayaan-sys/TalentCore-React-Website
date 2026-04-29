@@ -13,7 +13,7 @@ const whatsappOptions = [
 
 export default function WhatsAppButton() {
   return (
-    <div className="fixed inset-x-4 bottom-4 z-40 flex flex-col gap-2 sm:inset-x-auto sm:right-5 sm:bottom-5 sm:gap-3">
+    <div className="fixed inset-x-4 bottom-4 z-40 flex flex-col gap-2 md:hidden">
       {whatsappOptions.map((option) =>
         isConfigured(option.number) ? (
           <a

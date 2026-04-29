@@ -1,5 +1,6 @@
 import ContactForm from "../components/ContactForm.jsx";
 import SectionHeader from "../components/SectionHeader.jsx";
+import WhatsAppButton from "../components/WhatsAppButton.jsx";
 import { isConfigured, siteLinks } from "../config/site.js";
 
 export default function Contact() {
@@ -61,6 +62,7 @@ export default function Contact() {
           fit.
         </p>
       </div>
+      <WhatsAppButton />
     </section>
   );
 }
