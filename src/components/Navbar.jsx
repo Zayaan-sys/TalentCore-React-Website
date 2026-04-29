@@ -11,7 +11,7 @@ const links = [
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-40 border-b border-brandBlue/10 bg-white/82 shadow-sm backdrop-blur-xl">
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-4">
+      <div className="mx-auto grid max-w-6xl grid-cols-[1fr_auto_1fr] items-center gap-4 px-5 py-4">
         <NavLink to="/" aria-label="TalentCore home" className="shrink-0">
           <img
             src={logo}
@@ -20,7 +20,7 @@ export default function Navbar() {
           />
         </NavLink>
 
-        <nav className="hidden items-center gap-8 text-sm md:flex">
+        <nav className="hidden items-center justify-center gap-8 text-sm md:flex">
           {links.map((link) => (
             <NavLink
               key={link.to}
@@ -37,7 +37,7 @@ export default function Navbar() {
 
         <NavLink
           to="/contact"
-          className="rounded-full bg-brandBlue px-5 py-2.5 text-sm font-extrabold text-white shadow-lg shadow-brandBlue/20 transition hover:-translate-y-0.5 hover:bg-brandOrange"
+          className="justify-self-end rounded-full bg-brandBlue px-5 py-2.5 text-sm font-extrabold text-white shadow-lg shadow-brandBlue/20 transition hover:-translate-y-0.5 hover:bg-brandOrange"
         >
           Book
         </NavLink>
