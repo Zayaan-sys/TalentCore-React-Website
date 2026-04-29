@@ -1,0 +1,15 @@
+{
+  "name": "TalentCore",
+  "short_name": "TalentCore",
+  "description": "Psychology and technology support for growing teams.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#2c4f73",
+  "background_color": "#fbfaf7",
+  "display": "standalone"
+}
