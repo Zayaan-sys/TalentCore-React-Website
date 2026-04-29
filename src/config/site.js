@@ -1,6 +1,6 @@
 export const FORM_ENDPOINT = "";
-export const CAL_BOOKING_URL = "";
-export const WHATSAPP_NUMBER = "";
+export const CAL_BOOKING_URL = "https://cal.com/zayaan-lodewyk-pcaqyn";
+export const WHATSAPP_NUMBER = "27726044024";
 
 export const siteLinks = {
   formEndpoint: FORM_ENDPOINT,
