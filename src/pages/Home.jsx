@@ -12,14 +12,14 @@ const divisions = [
     title: "People, leadership and organisational growth",
     text: "Coaching and thinking partnerships for individuals, leaders, and teams who need clarity, resilience, and purposeful movement.",
     highlights: ["Coaching", "Leadership development", "Organisational support"],
-    to: "/services#psychology",
+    to: "/services/psychology",
   },
   {
     eyebrow: "Technology",
     title: "Digital systems that make work feel lighter",
     text: "Technology support for small businesses and teams who need practical websites, automation, and clearer digital workflows.",
     highlights: ["Websites", "Automation", "Digital operations"],
-    to: "/services#technology",
+    to: "/services/technology",
   },
 ];
 
@@ -42,13 +42,13 @@ export default function Home() {
             </p>
             <div className="mt-9 flex flex-col gap-4 sm:flex-row">
               <Link
-                to="/services#psychology"
+                to="/services/psychology"
                 className="rounded-full bg-brandBlue px-7 py-4 text-center font-extrabold text-white shadow-lg shadow-brandBlue/20 transition hover:-translate-y-1 hover:bg-brandOrange"
               >
                 Explore Psychology
               </Link>
               <Link
-                to="/services#technology"
+                to="/services/technology"
                 className="rounded-full border-2 border-brandBlue px-7 py-4 text-center font-extrabold text-brandBlue transition hover:-translate-y-1 hover:border-brandOrange hover:text-brandOrange"
               >
                 Explore Technology
